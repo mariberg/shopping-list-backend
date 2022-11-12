@@ -14,8 +14,6 @@ The idea of the app is that a registered user is able to create two separate sho
 - jwttoken
 - cors
 
-## Next steps
-
 ## Development server
 
-Run npm start for a dev server. Navigate to http://localhost:3000/.
+Run npm start for a dev server. Navigate to http://localhost:3000/. You need to have a locally run Mongoose database connected to this app.

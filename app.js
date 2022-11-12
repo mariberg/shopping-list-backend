@@ -19,7 +19,6 @@ const app = express();
 // address of the frontend app that we are allowed to connect to
 const corsOptions = {
   origin: 'http://localhost:4200',
-  //origin: 'https://shopping-list-5602a.web.app', // this is firebase url
   optionsSuccessStatus: 200,
 }
 

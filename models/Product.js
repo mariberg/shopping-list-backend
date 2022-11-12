@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 
 const ProductSchema = new mongoose.Schema({
-  product: { type: String, unique: true, required: true, max: 15, lowercase: true }, //! check if lowercase works
+  product: { type: String, unique: true, required: true, max: 15, lowercase: true },
   quantity: { type: Number, unique: false, required: true },
   productGroup: {
     type: String,
