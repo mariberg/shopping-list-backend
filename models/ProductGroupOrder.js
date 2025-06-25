@@ -7,8 +7,9 @@ const mongoose = require('mongoose');
 const ProductGroupOrderSchema = new mongoose.Schema({
   productGroup: {
     type: String,
-    unique: true,
     required: true,
+    // Removed unique constraint as it doesn't work correctly in subdocuments
+    // Uniqueness should be enforced at the application level or with compound indexes
   },
 });
 
